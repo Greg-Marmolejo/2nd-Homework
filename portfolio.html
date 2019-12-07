@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html lang= "en-us">
-    <head>
-        <title>Portfolio</title>
-        <link rel= "stylesheet" href="assets/css/style.css">
-        <!-- <link rel= "stylesheet" href="css/reset.css" -->
-    </head>
+        <head>
+                <!-- Required meta tags -->
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            
+                <!-- Bootstrap CSS -->
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+                
+                <title>Portfolio | Greg Marmolejo</title>
+                <!--<link rel= "stylesheet" href="assets/css/style.css"> -->
+        </head>
 
     <body>
-        <header>
-            <div class= "navigation">                
-                <h1>Greg Marmolejo</h1>
-                    <nav>
-                    <a href= "index.html">About</a>
-                    <a href= "portfolio.html">Portfolio</a>
-                    <a href= "contact.html">Contact</a>
-                    </nav>
-            </div>
-        </header>
-        <br>
+<!--Navbar is the same on all three pages-->
+        <div class= "navigation">                
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Greg Marmolejo</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="2index.html">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+    </div>    
+    
+    <br>
 
         <!--Same container for all three pages.-->        
         <div id="container">
             <section><h2>Portfolio</h2></section>
             <hr>
-
             <!--Container holding the images together.-->
-            <div class="Content">
-                <!--These sections pair up the images and their text.-->
-                <section class= "imageContainer">
-                    <a href="https://www.google.com" target="_blank">
-                        <img src= "assets/images/Button Click Exercise.png" alt= "Button Click Exercise" width= "100%" height= "75%">
-                    <div class= "textBlock">
-                        <h4>Number Counter</h4>
-                    </div></a>
-                </section>
+            <div class="row">
+                    <div class="col-4">
+                        <a href="https://www.google.com" target="_blank">
+                            <img src= "assets/images/Button Click Exercise.png" alt= "Button Click Exercise" width= "100%" height= "75%">
+                            <div class= "textBlock"><h4>Number Counter</h4></div>
+                        </a>
+                    </div>
 
-                <section class= "imageContainer">
-                    <a href="https://www.google.com" target="_blank">
-                        <img src= "assets/images/A Game of Cat and Mouse.png" alt= "A Game of Cat and Mouse" width= "100%" height= "75%">
-                    <div class= "textBlock">
-                        <h4>Shooter Game</h4>
-                    </div></a>
-                </section>
+                    <div class="col-4"><a href="https://www.google.com" target="_blank">
+                            <img src= "assets/images/A Game of Cat and Mouse.png" alt= "A Game of Cat and Mouse" width= "100%" height= "75%">
+                            <div class= "textBlock"><h4>Shooter Game</h4></div>
+                        </a>
+                    </div>
 
-                <section class= "imageContainer">
-                    <a href="https://www.google.com" target="_blank">
-                        <img src= "assets/images/My First Homework Assignment.png" alt= "Fast Times Fan Page" width= "100%" height= "75%">
-                    <div class= "textBlock">
-                        <h4>Fast Times Fan Page</h4>
-                    </div></a>
-                </section>
-
-
+                    <div class="col-4"><a href="https://www.google.com" target="_blank">
+                            <img src= "assets/images/My First Homework Assignment.png" alt= "Fast Times Fan Page" width= "100%" height= "75%">
+                            <div class= "textBlock"><h4>Fast Times Fan Page</h4></div>
+                        </a>
+                    </div>
             </div>
+    
+            
         </div>
+        
         <footer>Copyright &copy;</footer>
     </body>
 </html>
