@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html lang= "en-us">
-    <head>
-    <!-- Required meta tags -->
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Contact | Greg Marmolejo</title>
+    <link rel= "stylesheet" href="style.css">
+</head>
 
-        <title>Contact | Greg Marmolejo</title>
-        <link rel= "stylesheet" href="style.css">
-    </head>
-
-    <body>
-        <div class= "navigation">                
-            <nav class="navbar navbar-expand-lg navbar-dark">
-              <a class="navbar-brand" href="#">Greg Marmolejo</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Greg Marmolejo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
             
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
                     <a class="nav-link" href="2index.html">About<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
+                </li>
+            </ul>
+        </div>    
+    </nav>
 
-        <br>
+    <br>
 
-        <div id="container">
-            <section><h2>Contact</h2></section>
-            <hr>
-            <section>
+    <div id="container" id="contentContainer">
+    
+        <div class="row">
+            <!-- 1st Column is Blank-->
+            <div class="col-md-3 col-sm-2 col-xs-1">
+            </div>                     
+                    
+            <!-- 2nd Column has Form-->
+            <div class="col-md-6 col-sm-8 col-xs-10">
                     <form>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Name</label>
-                              <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
-                            </div>
-                            <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" aria-describedby="messageHelp" placeholder="Write your message to me here" rows="3"></textarea>
-                                  </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                
-        </div>
+                    <h2>Contact</h2>
+                    <hr>
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Your Name">
+                    </div>
 
-        <footer class="bg-dark">Copyright &copy;</footer>
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" aria-describedby="messageHelp" placeholder="Write your message to me here" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            
+            <!-- 3rd Column is BLank-->
+            <div class="col-md-3 col-sm-2 col-xs-1">
+            </div>
+            
+        </div> <!-- row div -->
+    </div> <!-- "container"-->   
+                
+        
+
+    <footer class="bg-dark">Copyright &copy;</footer>
     </body>
 </html>
