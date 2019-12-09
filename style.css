@@ -11,8 +11,7 @@ body {
 }
 
 header {
-    margin: 0;
-    height: 60px;   
+    height: 60px;
 }
 
 .navbar-brand {
@@ -23,38 +22,13 @@ header {
     background-color: #4aaaa5;
 }
 
-.row {
-    margin: 0;
-}
-
-#aboutMeContent {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-#contentContainer {
-    background-color: #ffffff;
-    max-width: 960px;
-}
-
-h1, h5 {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
-
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
 
-p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
 .btn {
     background-color: #4aaaa5;
-    box-shadow: none;
-    border-radius: 0;
-    color: #ffffff;
 }
 
 footer {
@@ -64,37 +38,16 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
-.bg-dark {
-    background-color: #666666;
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
 }
 
-@media screen and (max-width: 768px) {
-    body {
-      text-align: left;
-    }
-    .wrapper {
-      width: 100%;
-    }
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
-
-  @media screen and (max-width: 640px) {
-    body {
-      text-align: center;
-    }
-    #aboutMePhoto {
-        max-width: 100%;
-        height: auto;
-    }
-    .navbar-brand {
-        margin: 0 auto;
-    }
-    .navbar-toggler {
-      width: 100%;
-    }
-    .nav-item {
-      margin: 0px;
-    }
-    .wrapper {
-      width: 100%;
-    }
-  }
+}
