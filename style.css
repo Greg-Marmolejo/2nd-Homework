@@ -17,6 +17,10 @@ body {
     background-color: #4aaaa5;
 }
 
+#container {
+    background-color: #ffffff;
+}
+
 header {
     height: 15px;
 }
@@ -37,7 +41,7 @@ h2 {
 .textBlock {
     text-align: center;
     background-color: #4aaaa5;
-    width: 220px;
+    width: 280px;
 }
 
 h6 {
