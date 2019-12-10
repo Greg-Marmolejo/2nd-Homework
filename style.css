@@ -8,11 +8,10 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url("../images/criss-cross.png");
-    background-color: #777777;
 }
 
 header {
-    height: 60px;
+    height: 30px;
 }
 
 .navbar-brand {
@@ -29,9 +28,13 @@ header {
     background-color: #ffffff;
 }
 
-.mr-3 {
-    height: 162px;
-    width: 288px; 
+#photoGreg {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    border-radius: 24px;
+    border: purple;
+    margin: 8px; 
 }
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
