@@ -7,8 +7,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("../images/criss-cross.png");
-}
+    }
 
 .navbar-brand {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -22,14 +21,6 @@ header {
     height: 15px;
 }
 
-#container {
-    background-color: #ffffff;
-    width: 640px;
-}
-
-.row {
-    height: 200px;
-}
 #photoGreg {
     float: left;
     max-width: 30%;
@@ -43,13 +34,14 @@ h2 {
     color: #4aaaa5;
 }
 
-
-#card {
-    height: 50px;
+.textBlock {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 220px;
 }
 
-#card-body {
-    height: 50px
+h6 {
+    color: #ffffff;
 }
 .btn {
     background-color: #4aaaa5;
