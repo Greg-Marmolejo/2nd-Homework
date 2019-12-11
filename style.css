@@ -46,18 +46,6 @@ h2 {
     color: #4aaaa5;
 }
 
-.card-title {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    background-color: #4aaaa5;
-    padding: 10px;
-}
-
-h5 {
-    color: white;
-}
-
 .textBlock {
     padding: 8px;
     text-align: center;
